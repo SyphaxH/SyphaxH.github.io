@@ -1,0 +1,147 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(img/Fond.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -8px;
+  margin-left: -7px;
+}
+.Texte-header {
+  color: white;
+  text-align: center;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  margin-top: -35px;
+  float: right;
+}
+#Titre {
+  font-size: 500%;
+  font-weight: 400;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+#Sous-Titre {
+  font-size: 150%;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+#clique {
+  text-decoration: none;
+  color: white;
+  border: 2px solid;
+  border-color: rgb(187, 8, 8);
+  background-color: rgb(187, 8, 8);
+  border-radius: 20px;
+  padding: 5px 17px;
+}
+.btn:active,
+.btn:hover {
+  border-bottom: rgb(187, 8, 8) 2px solid;
+  padding-bottom: 5px;
+}
+#clique:active,
+#clique:hover {
+  border-color: rgb(113, 10, 10);
+  background-color: rgb(113, 10, 10);
+}
+/*!Page 02*/
+.Titre-films {
+  background-color: rgb(141, 138, 138);
+  padding: 20px;
+}
+.Ghibli {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-left: -5%;
+  margin-top: -20px;
+  margin-right: -50px;
+}
+.tit {
+  font-size: 80px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  border: solid 2px;
+  border-radius: 20px;
+}
+.yes {
+  text-decoration: none;
+  color: rgb(141, 138, 138);
+  margin-bottom: 300px;
+}
+#film1 {
+  background-image: url(img/Castle\ in\ the\ sky.jpg);
+  background-size: cover;
+  background-position: center;
+  border: solid 0px;
+  margin-left: 30px;
+  margin-right: 4%;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-bottom: 300px;
+}
+#film2 {
+  background-image: url(img/Spirited\ Away.jpg);
+  background-size: cover;
+  background-position: center;
+  border: solid 0px;
+  margin-right: 4%;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-bottom: 300px;
+}
+#film3 {
+  background-image: url(img/Totoro.jpg);
+  background-size: cover;
+  background-position: center;
+  border: solid 0px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-bottom: 300px;
+}
+
+#film1:active,
+#film1:hover {
+  background-image: url(img/Castle\ in\ the\ sky\ 2.jpg);
+  transition: 0.8s;
+  background-position: center;
+}
+#film2:active,
+#film2:hover {
+  background-image: url(img/Spirited\ Away\ 2.jpg);
+  transition: 0.8s;
+  background-position: center;
+}
+#film3:active,
+#film3:hover {
+  background-image: url(img/Totoro\ 2.jpg);
+  transition: 0.8s;
+  background-position: center;
+}
+footer {
+  background-color: rgb(118, 116, 116);
+}
+.credit {
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  font-weight: 500;
+}
